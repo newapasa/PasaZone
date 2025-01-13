@@ -1,0 +1,169 @@
+/* global css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --white: #ffffff;
+  --offwhite: #fbfbfb;
+  --black: #161616;
+  --gray: #909090;
+  --bg-product: rgb(243 244 246);
+  --light-gray: #a9a9a9;
+  --blue: #074ef3;
+  --dark-blue: #001fb9;
+  --light-blue: #0091ff;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Lato", Times, serif;
+  --border-radius: 5px;
+}
+
+body {
+  background-color: var(--offwhite);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--black);
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: var(--font-secondary);
+}
+
+h1,
+.h1 {
+  font-size: 78px;
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+}
+
+h3,
+.h3 {
+  font-size: 22px;
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+}
+
+h6,
+.h6 {
+  font-size: 16px;
+}
+
+p {
+  font-family: var(--font-primary);
+  margin-bottom: 5px;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black) !important;
+}
+
+a:hover {
+  color: var(--green) !important;
+}
+a:visited {
+  color: var(--black) !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+textarea {
+  resize: none;
+  border-radius: 5px !important;
+}
+.page {
+  margin: 0;
+}
+.container {
+  max-width: 1360px;
+}
+.primary-btn a,
+.woocommerce-Button {
+  padding: 10px 15px;
+  background-color: var(--green);
+  border-radius: 5px;
+  color: var(--white) !important;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.primary-btn a:hover,
+.woocommerce-Button {
+  background-color: var(--dark-green);
+}
+/* custome css here  */
+
+/* header  */
+.site-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-branding .custom-logo {
+  height: 50px;
+  width: auto;
+}
+
+/* menu  */
+.menu-item a {
+  color: var(--white) !important;
+}
+
+/* footer css */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+}
+.site-footer .social-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
