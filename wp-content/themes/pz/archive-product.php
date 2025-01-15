@@ -5,7 +5,7 @@ if (! defined('ABSPATH')) {
 
 get_header('shop'); ?>
 
-<div class="container">
+<div class="container section">
 	<div class="row">
 		<div class="col-12">
 			<h1><?php woocommerce_page_title(); ?></h1>

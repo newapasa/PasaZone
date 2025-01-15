@@ -38,8 +38,8 @@
 				<address>
 					<?php esc_html_e('1234 Street Name', 'pz'); ?><br>
 					<?php esc_html_e('City, Country', 'pz'); ?><br>
-					<?php esc_html_e('Phone: (123) 456-7890', 'pz'); ?><br>
-					<a href="mailto:info@yourdomain.com"><?php esc_html_e('info@yourdomain.com', 'pz'); ?></a>
+					<?php esc_html_e('Phone: (+977) 984100000', 'pz'); ?><br>
+					<a href="newapasa7@gmail.com"><?php esc_html_e('newapasa7@gmail.com.com', 'pz'); ?></a>
 				</address>
 			</div>
 
@@ -61,9 +61,9 @@
 			<span class="sep"> | </span>
 			<?php
 			printf(
-				esc_html__('Theme: %1$s by %2$s.', 'pz'),
-				'pz',
-				'<a href="http://underscores.me/" class="text-light">Underscores.me</a>'
+				esc_html__('Theme: %1$s by %2$s.', 'PZ'),
+				'PZ',
+				'<a href="https://newapasa.github.io/Portfolio/" class="text-light">Shreejan Prajapati</a>'
 			);
 			?>
 		</div><!-- .site-info -->

@@ -16,6 +16,7 @@ html {
   --gray: #909090;
   --bg-product: rgb(243 244 246);
   --light-gray: #a9a9a9;
+  --brand-color: #00c2cc;
   --blue: #074ef3;
   --dark-blue: #001fb9;
   --light-blue: #0091ff;
@@ -120,10 +121,14 @@ textarea {
 .container {
   max-width: 1360px;
 }
+.container.section{
+  padding: 80px 0;
+}
 .primary-btn a,
+.btn-primary,
 .woocommerce-Button {
   padding: 10px 15px;
-  background-color: var(--green);
+  background-color: var(--black);
   border-radius: 5px;
   color: var(--white) !important;
   transition: 0.3s ease;
@@ -131,8 +136,9 @@ textarea {
   font-weight: 500;
 }
 .primary-btn a:hover,
-.woocommerce-Button {
-  background-color: var(--dark-green);
+.btn-primary:hover,
+.woocommerce-Button:hover {
+  background-color: var(--brand-color);
 }
 /* custome css here  */
 
@@ -147,7 +153,23 @@ textarea {
 }
 
 /* menu  */
+.main-navigation li{
+  margin-left: 20px;
+}
 .menu-item a {
+  color: var(--white) !important;
+}
+
+/* site main section */
+.site-main{
+  padding: 80px 0;
+}
+
+/* product button */
+.wp-block-button__link{
+  color: var(--white) !important;
+}
+.wp-block-button__link:hover{
   color: var(--white) !important;
 }
 
@@ -161,9 +183,15 @@ textarea {
   margin-right: 15px;
 }
 .site-footer a {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 .site-footer a:hover {
   text-decoration: underline;
+}
+
+/* product title */
+.woocommerce-loop-product__title{
+  font-size: 18px;
+color: var(--black);
 }
